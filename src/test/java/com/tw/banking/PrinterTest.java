@@ -59,7 +59,7 @@ class PrinterTest {
         printer.print(givenTransactions);
 
         verify(spyConsole, times(1)).printLine("18/06/2019 | 1 | 8");
-        verify(spyConsole, times(1)).printLine("18/06/2018 | 5 | 3");
+        verify(spyConsole, times(1)).printLine("18/06/2018 | 5 | 7");
         verify(spyConsole, times(1)).printLine("18/06/2017 | 2 | 2");
     }
 
